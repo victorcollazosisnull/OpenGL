@@ -1,0 +1,407 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Example">
+      <UniqueIdentifier>{363ce6a7-18ed-44b1-8592-dfdb682ce1aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Example">
+      <UniqueIdentifier>{dd58ac88-dc41-461c-9c16-c8ff9f00c935}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Utility">
+      <UniqueIdentifier>{70915f7e-fbad-42a4-85b3-34c815d7b616}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Utility">
+      <UniqueIdentifier>{5ad45f35-23d5-4d8b-9f08-cf0ce3ee609e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Figura">
+      <UniqueIdentifier>{8a0e5f10-afd4-4c28-bcf3-3397752ba2f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Figura">
+      <UniqueIdentifier>{29971600-fdab-49be-910a-7568db642dd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Figura\Figura3D">
+      <UniqueIdentifier>{43b54914-f116-472f-a17c-c1740be9e06b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Figura\Figura2D">
+      <UniqueIdentifier>{19fdb108-a739-454b-b9b4-35ab57b9abdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Figura\Figura3D">
+      <UniqueIdentifier>{22d9f1c9-e9da-4601-941a-5a60e15c2571}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Figura\Figura2D">
+      <UniqueIdentifier>{e63e113f-7810-4d5d-9d46-876b480a2f05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Vector3D">
+      <UniqueIdentifier>{0306db19-82b9-4217-b33d-e54394e62664}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Vector3D">
+      <UniqueIdentifier>{1ff84230-280e-4209-bb27-f7ead4e3488f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Transform">
+      <UniqueIdentifier>{7d8d2df7-ba18-408c-8871-8ee5e25ca4a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Transform">
+      <UniqueIdentifier>{0d2ec191-0d2b-4181-b405-6d45d6762107}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Light">
+      <UniqueIdentifier>{d0fd01d9-5683-45f3-95d7-1b751178646a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Light">
+      <UniqueIdentifier>{2a3b9435-512e-498c-9aa6-28a972d2577f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Textures">
+      <UniqueIdentifier>{17ffaa8c-68ea-454a-8201-04cbf68bf611}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Textures">
+      <UniqueIdentifier>{c7cf1ce9-6926-4ee2-95a9-da9d237f3487}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Figura\FiguraVAIndex">
+      <UniqueIdentifier>{b4602df9-a690-4cde-bb56-3f8402103441}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Figura\FiguraVAIndex">
+      <UniqueIdentifier>{bf82ad76-e5a1-4bca-8be6-885f171952f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Figura\FiguraDisplayList">
+      <UniqueIdentifier>{b7b3d26b-7b09-49c2-a280-aa5e4dbb781e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Figura\FiguraDisplayList">
+      <UniqueIdentifier>{895aca56-a8c0-4968-815d-e4809f5879f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Figura\FiguraVAInstanced">
+      <UniqueIdentifier>{889d5287-b661-4fc9-93dd-58260d41b192}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Figura\FiguraVAInstanced">
+      <UniqueIdentifier>{6bd16f17-1c52-4fdb-adf5-fd7915b1e80f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Figura\FiguraVertexArray">
+      <UniqueIdentifier>{184e7010-287e-4f98-8ffe-11813234daac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Figura\FiguraVertexArray">
+      <UniqueIdentifier>{8fd5c2e8-4594-46ef-ac33-cd7a79742d4d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="OpenGL.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Example.cpp">
+      <Filter>Archivos de origen\Example</Filter>
+    </ClCompile>
+    <ClCompile Include="Example1.cpp">
+      <Filter>Archivos de origen\Example</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>Archivos de origen\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Figura.cpp">
+      <Filter>Archivos de origen\Figura</Filter>
+    </ClCompile>
+    <ClCompile Include="Figura3D.cpp">
+      <Filter>Archivos de origen\Figura\Figura3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Figura2D.cpp">
+      <Filter>Archivos de origen\Figura\Figura2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Esfera.cpp">
+      <Filter>Archivos de origen\Figura\Figura3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Cuadrado.cpp">
+      <Filter>Archivos de origen\Figura\Figura2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Cubo.cpp">
+      <Filter>Archivos de origen\Figura\Figura3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Piramide.cpp">
+      <Filter>Archivos de origen\Figura\Figura3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Circulo.cpp">
+      <Filter>Archivos de origen\Figura\Figura2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangulo.cpp">
+      <Filter>Archivos de origen\Figura\Figura2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Example2.cpp">
+      <Filter>Archivos de origen\Example</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3D.cpp">
+      <Filter>Archivos de origen\Vector3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Archivos de origen\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="Example3.cpp">
+      <Filter>Archivos de origen\Example</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Archivos de origen\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="TPSCamera.cpp">
+      <Filter>Archivos de origen\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Example4.cpp">
+      <Filter>Archivos de origen\Example</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Archivos de origen\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="SpotLight.cpp">
+      <Filter>Archivos de origen\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionLight.cpp">
+      <Filter>Archivos de origen\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLight.cpp">
+      <Filter>Archivos de origen\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="Example5.cpp">
+      <Filter>Archivos de origen\Example</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Archivos de origen\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureLoader.cpp">
+      <Filter>Archivos de origen\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="BMPTextureLoader.cpp">
+      <Filter>Archivos de origen\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="Example6.cpp">
+      <Filter>Archivos de origen\Example</Filter>
+    </ClCompile>
+    <ClCompile Include="Example7.cpp">
+      <Filter>Archivos de origen\Example</Filter>
+    </ClCompile>
+    <ClCompile Include="FiguraDisplayList.cpp">
+      <Filter>Archivos de origen\Figura\FiguraDisplayList</Filter>
+    </ClCompile>
+    <ClCompile Include="CuboDisplayList.cpp">
+      <Filter>Archivos de origen\Figura\FiguraDisplayList</Filter>
+    </ClCompile>
+    <ClCompile Include="CuadradoDisplayList.cpp">
+      <Filter>Archivos de origen\Figura\FiguraDisplayList</Filter>
+    </ClCompile>
+    <ClCompile Include="EsferaDisplayList.cpp">
+      <Filter>Archivos de origen\Figura\FiguraDisplayList</Filter>
+    </ClCompile>
+    <ClCompile Include="PiramideDisplayList.cpp">
+      <Filter>Archivos de origen\Figura\FiguraDisplayList</Filter>
+    </ClCompile>
+    <ClCompile Include="FiguraVAIndex.cpp">
+      <Filter>Archivos de origen\Figura\FiguraVAIndex</Filter>
+    </ClCompile>
+    <ClCompile Include="CuadradoVAIndex.cpp">
+      <Filter>Archivos de origen\Figura\FiguraVAIndex</Filter>
+    </ClCompile>
+    <ClCompile Include="CuboVAIndex.cpp">
+      <Filter>Archivos de origen\Figura\FiguraVAIndex</Filter>
+    </ClCompile>
+    <ClCompile Include="EsferaVAIndex.cpp">
+      <Filter>Archivos de origen\Figura\FiguraVAIndex</Filter>
+    </ClCompile>
+    <ClCompile Include="PiramideVAIndex.cpp">
+      <Filter>Archivos de origen\Figura\FiguraVAIndex</Filter>
+    </ClCompile>
+    <ClCompile Include="FiguraVAInstanced.cpp">
+      <Filter>Archivos de origen\Figura\FiguraVAInstanced</Filter>
+    </ClCompile>
+    <ClCompile Include="CuadradoVAInstanced.cpp">
+      <Filter>Archivos de origen\Figura\FiguraVAInstanced</Filter>
+    </ClCompile>
+    <ClCompile Include="CuboVAInstanced.cpp">
+      <Filter>Archivos de origen\Figura\FiguraVAInstanced</Filter>
+    </ClCompile>
+    <ClCompile Include="EsferaVAInstanced.cpp">
+      <Filter>Archivos de origen\Figura\FiguraVAInstanced</Filter>
+    </ClCompile>
+    <ClCompile Include="PiramideVAInstanced.cpp">
+      <Filter>Archivos de origen\Figura\FiguraVAInstanced</Filter>
+    </ClCompile>
+    <ClCompile Include="FiguraVertexArray.cpp">
+      <Filter>Archivos de origen\Figura\FiguraVertexArray</Filter>
+    </ClCompile>
+    <ClCompile Include="CuadradoVertexArray.cpp">
+      <Filter>Archivos de origen\Figura\FiguraVertexArray</Filter>
+    </ClCompile>
+    <ClCompile Include="CuboVertexArray.cpp">
+      <Filter>Archivos de origen\Figura\FiguraVertexArray</Filter>
+    </ClCompile>
+    <ClCompile Include="EsferaVertexArray.cpp">
+      <Filter>Archivos de origen\Figura\FiguraVertexArray</Filter>
+    </ClCompile>
+    <ClCompile Include="PiramideVertexArray.cpp">
+      <Filter>Archivos de origen\Figura\FiguraVertexArray</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Example.h">
+      <Filter>Archivos de encabezado\Example</Filter>
+    </ClInclude>
+    <ClInclude Include="Example1.h">
+      <Filter>Archivos de encabezado\Example</Filter>
+    </ClInclude>
+    <ClInclude Include="IncludeGL.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Archivos de encabezado\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Figura.h">
+      <Filter>Archivos de encabezado\Figura</Filter>
+    </ClInclude>
+    <ClInclude Include="Figura2D.h">
+      <Filter>Archivos de encabezado\Figura\Figura2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Figura3D.h">
+      <Filter>Archivos de encabezado\Figura\Figura3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Esfera.h">
+      <Filter>Archivos de encabezado\Figura\Figura3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Cuadrado.h">
+      <Filter>Archivos de encabezado\Figura\Figura2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Cubo.h">
+      <Filter>Archivos de encabezado\Figura\Figura3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Piramide.h">
+      <Filter>Archivos de encabezado\Figura\Figura3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Circulo.h">
+      <Filter>Archivos de encabezado\Figura\Figura2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangulo.h">
+      <Filter>Archivos de encabezado\Figura\Figura2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Example2.h">
+      <Filter>Archivos de encabezado\Example</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3D.h">
+      <Filter>Archivos de encabezado\Vector3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Archivos de encabezado\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Example3.h">
+      <Filter>Archivos de encabezado\Example</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraFPS.h">
+      <Filter>Archivos de encabezado\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="TPSCamera.h">
+      <Filter>Archivos de encabezado\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Example4.h">
+      <Filter>Archivos de encabezado\Example</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Archivos de encabezado\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="SpotLight.h">
+      <Filter>Archivos de encabezado\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionLight.h">
+      <Filter>Archivos de encabezado\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLight.h">
+      <Filter>Archivos de encabezado\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Example5.h">
+      <Filter>Archivos de encabezado\Example</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Archivos de encabezado\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureLoader.h">
+      <Filter>Archivos de encabezado\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="BMPTextureLoader.h">
+      <Filter>Archivos de encabezado\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="Example6.h">
+      <Filter>Archivos de encabezado\Example</Filter>
+    </ClInclude>
+    <ClInclude Include="Example7.h">
+      <Filter>Archivos de encabezado\Example</Filter>
+    </ClInclude>
+    <ClInclude Include="FiguraDisplayList.h">
+      <Filter>Archivos de encabezado\Figura\FiguraDisplayList</Filter>
+    </ClInclude>
+    <ClInclude Include="CuboDisplayList.h">
+      <Filter>Archivos de encabezado\Figura\FiguraDisplayList</Filter>
+    </ClInclude>
+    <ClInclude Include="CuadradoDisplayList.h">
+      <Filter>Archivos de encabezado\Figura\FiguraDisplayList</Filter>
+    </ClInclude>
+    <ClInclude Include="EsferaDisplayList.h">
+      <Filter>Archivos de encabezado\Figura\FiguraDisplayList</Filter>
+    </ClInclude>
+    <ClInclude Include="PiramideDisplayList.h">
+      <Filter>Archivos de encabezado\Figura\FiguraDisplayList</Filter>
+    </ClInclude>
+    <ClInclude Include="FiguraVAIndex.h">
+      <Filter>Archivos de encabezado\Figura\FiguraVAIndex</Filter>
+    </ClInclude>
+    <ClInclude Include="CuadradoVAIndex.h">
+      <Filter>Archivos de encabezado\Figura\FiguraVAIndex</Filter>
+    </ClInclude>
+    <ClInclude Include="CuboVAIndex.h">
+      <Filter>Archivos de encabezado\Figura\FiguraVAIndex</Filter>
+    </ClInclude>
+    <ClInclude Include="EsferaVAIndex.h">
+      <Filter>Archivos de encabezado\Figura\FiguraVAIndex</Filter>
+    </ClInclude>
+    <ClInclude Include="PiramideVAIndex.h">
+      <Filter>Archivos de encabezado\Figura\FiguraVAIndex</Filter>
+    </ClInclude>
+    <ClInclude Include="FiguraVAInstanced.h">
+      <Filter>Archivos de encabezado\Figura\FiguraVAInstanced</Filter>
+    </ClInclude>
+    <ClInclude Include="CuadradoVAInstanced.h">
+      <Filter>Archivos de encabezado\Figura\FiguraVAInstanced</Filter>
+    </ClInclude>
+    <ClInclude Include="CuboVAInstanced.h">
+      <Filter>Archivos de encabezado\Figura\FiguraVAInstanced</Filter>
+    </ClInclude>
+    <ClInclude Include="EsferaVAInstanced.h">
+      <Filter>Archivos de encabezado\Figura\FiguraVAInstanced</Filter>
+    </ClInclude>
+    <ClInclude Include="PiramideVAInstanced.h">
+      <Filter>Archivos de encabezado\Figura\FiguraVAInstanced</Filter>
+    </ClInclude>
+    <ClInclude Include="FiguraVertexArray.h">
+      <Filter>Archivos de encabezado\Figura\FiguraVertexArray</Filter>
+    </ClInclude>
+    <ClInclude Include="CuadradoVertexArray.h">
+      <Filter>Archivos de encabezado\Figura\FiguraVertexArray</Filter>
+    </ClInclude>
+    <ClInclude Include="CuboVertexArray.h">
+      <Filter>Archivos de encabezado\Figura\FiguraVertexArray</Filter>
+    </ClInclude>
+    <ClInclude Include="EsferaVertexArray.h">
+      <Filter>Archivos de encabezado\Figura\FiguraVertexArray</Filter>
+    </ClInclude>
+    <ClInclude Include="PiramideVertexArray.h">
+      <Filter>Archivos de encabezado\Figura\FiguraVertexArray</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OpenGL.rc">
+      <Filter>Archivos de recursos</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
